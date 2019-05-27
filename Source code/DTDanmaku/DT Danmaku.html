@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+
+	<script src="DTDanmakuBridgeMouseJavascript.js"></script>
+	<script src="DTDanmakuBridgeKeyboardJavascript.js"></script>
+	<script src="DTDanmakuBridgeImagesJavascript.js"></script>
+	<script src="DTDanmakuBridgeSoundsJavascript.js"></script>
+
+	<!-- Requires DTDanmakuBridgeImagesJavascript.js and DTDanmakuBridgeSoundsJavascript.js -->
+	<script src="DTDanmakuBridgeDisplayJavascript.js"></script>
+
+	<script src="bridge.js"></script>
+	<script src="bridge.meta.js"></script>
+	<script src="DTDanmaku.js"></script>
+	<script src="DTDanmaku.meta.js"></script>
+
+	<!-- Should be the last script since it might use any of the previous scripts -->
+	<script src="DTDanmakuInitializerJavascript.js"></script>
+</head>
+<body>
+	<div>
+		<span id="dtDanmakuFpsLabel"></span><span id="dtDanmakuFps"></span>
+	</div>
+	<div style="text-align:center;">
+		<canvas id="dtDanmakuCanvas" width="1000" height="700"></canvas>
+	</div>
+</body>
+</html>
